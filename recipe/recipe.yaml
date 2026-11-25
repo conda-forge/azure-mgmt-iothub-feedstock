@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-iothub
-  version: 4.0.0
+  version: "5.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_mgmt_iothub-${{ version }}.tar.gz
-  sha256: 07f25bd6f67374bab17cc1192f9f921b350e3560251f19069e666583541ed4d8
+  sha256: 58f2c24938c195b32c05a29a38ac3ae161f4d4b7ba688e0f77525fa285ca25db
 
 build:
   number: 0
